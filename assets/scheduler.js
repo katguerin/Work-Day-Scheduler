@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 function simpleCalendar() {
     $(document).ready(function () {
       let momentVar = moment().format('dddd, MMMM Do, YYYY h:mm a');
@@ -229,11 +228,3 @@ function simpleCalendar() {
   
   }
   simpleCalendar();
-=======
-function showDate() {
-    var dNow = new Date();
-    var utcdate= (dNow.getMonth()+ 1) + '/' + dNow.getDate() + '/' + dNow.getFullYear();
-    $('#currentDay').text(utcdate);
-}
-showDate();
->>>>>>> feature/edit-tasks
